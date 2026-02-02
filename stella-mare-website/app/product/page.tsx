@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { products, categories, Product } from '@/data/products';
 import ProductCard from '@/components/ProductCard';
@@ -8,7 +8,7 @@ import Sidebar from '@/components/Sidebar';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/data/translations';
 
-export default function ProductCatalog() {
+function ProductContent() {
   const searchParams = useSearchParams();
   const categoryParam = searchParams.get('category');
   
@@ -98,5 +98,13 @@ export default function ProductCatalog() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function ProductPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-white"></div>}>
+      <ProductContent />
+    </Suspense>
   );
 }

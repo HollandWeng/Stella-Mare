@@ -1,9 +1,12 @@
 "use client";
 
 import React, { useState } from 'react';
-import Turnstile from 'react-turnstile';
+import dynamic from 'next/dynamic';
+import Image from 'next/image';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/data/translations';
+
+const Turnstile = dynamic(() => import('react-turnstile'), { ssr: false });
 
 export default function ContactPage() {
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
@@ -71,20 +74,22 @@ export default function ContactPage() {
               <div className="w-1/2 flex flex-col items-center">
                 <span className="font-medium text-gray-900 mb-3">WeChat</span>
                 <div className="w-full aspect-square relative rounded-lg border border-gray-100 overflow-hidden">
-                  <img 
+                  <Image 
                     src="/images/wechat.jpg" 
                     alt="WeChat QR Code" 
-                    className="w-full h-full object-cover" 
+                    fill
+                    className="object-cover" 
                   />
                 </div>
               </div>
               <div className="w-1/2 flex flex-col items-center">
                 <span className="font-medium text-gray-900 mb-3">WhatsApp</span>
                 <div className="w-full aspect-square relative rounded-lg border border-gray-100 overflow-hidden">
-                  <img 
+                  <Image 
                     src="/images/whatsapp.jpg" 
                     alt="WhatsApp QR Code" 
-                    className="w-full h-full object-cover" 
+                    fill
+                    className="object-cover" 
                   />
                 </div>
               </div>

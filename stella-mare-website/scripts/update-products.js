@@ -57,7 +57,9 @@ rows.forEach((row, index) => {
     de: row['德语'] || '',
     es: row['西班牙语'] || '',
     ru: row['俄语'] || '',
-    it: row['意大利语'] || ''
+    it: row['意大利语'] || '',
+    fr: row['法语'] || '',
+    pt: row['葡萄牙语'] || ''
   };
 
   // 1. Extract suffix (e.g., SMC-001 -> 001)
@@ -137,6 +139,8 @@ const tsContent = `export interface ProductDescriptions {
   es: string;
   ru: string;
   it: string;
+  fr: string;
+  pt: string;
   [key: string]: string; // Index signature for dynamic access
 }
 

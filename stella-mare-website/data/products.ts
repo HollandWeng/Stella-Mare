@@ -5,6 +5,8 @@ export interface ProductDescriptions {
   es: string;
   ru: string;
   it: string;
+  fr: string;
+  pt: string;
   [key: string]: string; // Index signature for dynamic access
 }
 
@@ -33,7 +35,9 @@ export const products: Product[] = [
       "de": "5,5 x 12,5 cm große LED-Kerze aus Kunststoff in einem transparenten Becher mit gleichmäßiger, kugelförmiger Flamme, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 5,5 x 12,5 cm en vaso transparente con forma de bala y llama constante, 12 unidades/caja de presentación, funciona con 2 pilas AA.",
       "ru": "Пластиковая светодиодная свеча 5,5*12,5 см в прозрачном стаканчике, с устойчивым пламенем в форме пули, 12 шт./витрина, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,5*12,5 cm in tazza trasparente con fiamma fissa a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,5*12,5 cm in tazza trasparente con fiamma fissa a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 5,5 x 12,5 cm dans un verre transparent avec flamme stable en forme de balle, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico de 5,5 x 12,5 cm em copo transparente com chama estável em formato de bala, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 2.64,
     "category": "candle",
@@ -53,7 +57,9 @@ export const products: Product[] = [
       "de": "5,5 x 15 cm große LED-Kerze aus Kunststoff in einem transparenten Becher mit gleichmäßiger, kugelförmiger Flamme, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 5,5 x 15 cm en vaso transparente con forma de bala, llama constante, 12 piezas/caja de presentación, funciona con 2 pilas AA",
       "ru": "Пластиковые светодиодные свечи 5,5*15 см в прозрачном стаканчике, с устойчивым пламенем в форме пули, 12 шт./витрина, работают от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,5*15 cm in tazza trasparente con fiamma fissa a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,5*15 cm in tazza trasparente con fiamma fissa a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 5,5 x 15 cm dans un verre transparent, flamme stable en forme de balle, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico de 5,5 x 15 cm em copo transparente com chama estável em formato de bala, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 2.88,
     "category": "candle",
@@ -73,7 +79,9 @@ export const products: Product[] = [
       "de": "5,5 x 15 cm große LED-Kerze aus Kunststoff in einem transparenten Becher mit gleichmäßiger, kugelförmiger Flamme und aufgedrucktem religiösem Bild, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 5,5 x 15 cm en vaso transparente con forma de bala, llama constante e imagen religiosa impresa, 12 piezas/caja de presentación, funciona con 2 pilas AA",
       "ru": "Пластиковая светодиодная свеча 5,5*15 см в прозрачном стаканчике, с устойчивым пламенем в форме пули и религиозным рисунком, 12 шт./коробка для демонстрации, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,5*15 cm in tazza trasparente con fiamma fissa a forma di proiettile e stampa di un'immagine religiosa, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,5*15 cm in tazza trasparente con fiamma fissa a forma di proiettile e stampa di un'immagine religiosa, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 5,5 x 15 cm dans un verre transparent, avec flamme stable en forme de balle et motif religieux imprimé, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico de 5,5 x 15 cm em copo transparente com chama estável em formato de bala e estampa religiosa, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 3,
     "category": "candle",
@@ -93,7 +101,9 @@ export const products: Product[] = [
       "de": "5,5 x 12,5 cm große LED-Kerze aus Kunststoff in einem transparenten Becher mit Kupferdeckel, kugelförmige, gleichmäßige Flamme, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 5,5 x 12,5 cm en vaso transparente + luces de tapa de cobre con forma de bala y llama constante, 12 piezas/caja de presentación, funciona con 2 pilas AA",
       "ru": "Пластиковые светодиодные свечи 5,5*12,5 см в прозрачном стаканчике с медной крышкой, с постоянным пламенем в форме пули, 12 шт./витрина, работают от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,5*12,5 cm in tazza trasparente + coperchio in rame con fiamma fissa a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,5*12,5 cm in tazza trasparente + coperchio in rame con fiamma fissa a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 5,5 x 12,5 cm, présentée dans un pot transparent avec couvercle en cuivre, à flamme fixe en forme de balle, 12 pièces par boîte, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico de 5,5 x 12,5 cm em copo transparente com tampa de cobre, com chama estável em formato de bala, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 3.7199999999999998,
     "category": "candle",
@@ -113,7 +123,9 @@ export const products: Product[] = [
       "de": "5,5 x 15 cm große LED-Kerze aus Kunststoff in einem transparenten Becher mit Kupferdeckel, kugelförmige, gleichmäßige Flamme, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 5,5 x 15 cm en vaso transparente + luces de tapa de cobre con forma de bala y llama constante, 12 piezas/caja de presentación, funciona con 2 pilas AA",
       "ru": "Пластиковые светодиодные свечи 5,5*15 см в прозрачном стаканчике с медной крышкой, с устойчивым пламенем в форме пули, 12 шт./витрина, работают от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,5*15 cm in tazza trasparente + coperchio in rame con fiamma fissa a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,5*15 cm in tazza trasparente + coperchio in rame con fiamma fissa a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 5,5 x 15 cm, présentée dans un pot transparent avec couvercle en cuivre, avec une flamme stable en forme de balle. Vendue par boîte de 12. Fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico de 5,5 x 15 cm em copo transparente com tampa de cobre, com chama estável em formato de bala, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 3.9599999999999995,
     "category": "candle",
@@ -133,7 +145,9 @@ export const products: Product[] = [
       "de": "5,5 x 17,5 cm große LED-Kerze aus Kunststoff in einem transparenten Becher mit kupferfarbenen LEDs und gleichmäßiger, kugelförmiger Flamme, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 5,5 x 17,5 cm en vaso transparente + luces LED de cobre con forma de bala y llama constante, 12 piezas/caja de presentación, funciona con 2 pilas AA.",
       "ru": "Пластиковая светодиодная свеча 5,5*17,5 см в прозрачном стаканчике + медные светодиоды с пулевидным устойчивым пламенем, 12 шт./витрина, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,5*17,5 cm in tazza trasparente + luci LED in rame con fiamma fissa a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,5*17,5 cm in tazza trasparente + luci LED in rame con fiamma fissa a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 5,5 x 17,5 cm dans un pot transparent avec LED cuivrées et flamme stable en forme de balle, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico de 5,5 x 17,5 cm em copo transparente com luzes de LED cor de cobre e chama estável em formato de bala, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 4.2,
     "category": "candle",
@@ -153,7 +167,9 @@ export const products: Product[] = [
       "de": "7,5 x 10 cm große LED-Kerze aus Kunststoff in einem transparenten Becher mit kupferfarbenen LEDs und gleichmäßiger, kugelförmiger Flamme, 1 Stück pro Farbbox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 7,5 x 10 cm en vaso transparente + luces LED de cobre con forma de bala, llama constante, 1 unidad/caja de color, funciona con 2 pilas AA",
       "ru": "Пластиковая светодиодная свеча 7,5*10 см в прозрачном стаканчике + медные светодиоды с пулевидным устойчивым пламенем, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 7,5*10 cm in tazza trasparente + luci LED in rame con fiamma fissa a forma di proiettile, 1 pz/scatola colorata, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 7,5*10 cm in tazza trasparente + luci LED in rame con fiamma fissa a forma di proiettile, 1 pz/scatola colorata, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 7,5 x 10 cm dans un pot transparent avec LED cuivrées et flamme stable en forme de balle, 1 pièce par boîte, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico de 7,5 x 10 cm em copo transparente com luzes de LED cor de cobre e chama estável em formato de bala, 1 unidade por caixa colorida, funciona com 2 pilhas AA."
     },
     "price": 5.159999999999999,
     "category": "candle",
@@ -173,7 +189,9 @@ export const products: Product[] = [
       "de": "7,5 x 12,5 cm große LED-Kerze aus Kunststoff in einem transparenten Becher mit kupferfarbenen LEDs und gleichmäßiger, kugelförmiger Flamme, 1 Stück pro Farbbox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 7,5 x 12,5 cm en vaso transparente + luces LED de cobre con forma de bala y llama constante, 1 unidad/caja de color, funciona con 2 pilas AA.",
       "ru": "Пластиковая светодиодная свеча 7,5*12,5 см в прозрачном стаканчике + медные светодиоды с пулевидным устойчивым пламенем, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 7,5*12,5 cm in tazza trasparente + luci LED in rame con fiamma fissa a forma di proiettile, 1 pz/scatola colorata, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 7,5*12,5 cm in tazza trasparente + luci LED in rame con fiamma fissa a forma di proiettile, 1 pz/scatola colorata, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 7,5 x 12,5 cm dans un pot transparent avec LED cuivrées et flamme stable en forme de balle, 1 pièce par boîte, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico de 7,5 x 12,5 cm em copo transparente com luzes de LED cor de cobre e chama estável em formato de bala, 1 unidade por caixa colorida, funciona com 2 pilhas AA."
     },
     "price": 5.52,
     "category": "candle",
@@ -193,7 +211,9 @@ export const products: Product[] = [
       "de": "7,5 x 15 cm große LED-Kerze aus Kunststoff in einem transparenten Becher mit kupferfarbenen LEDs und gleichmäßiger, kugelförmiger Flamme, 1 Stück pro Farbbox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 7,5 x 15 cm en vaso transparente + luces LED de cobre con forma de bala, llama constante, 1 unidad/caja de color, funciona con 2 pilas AA",
       "ru": "Пластиковая светодиодная свеча 7,5*15 см в прозрачном стаканчике + медные светодиоды с пулевидным устойчивым пламенем, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 7,5*15 cm in tazza trasparente + luci LED in rame con fiamma fissa a forma di proiettile, 1 pz/scatola colorata, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 7,5*15 cm in tazza trasparente + luci LED in rame con fiamma fissa a forma di proiettile, 1 pz/scatola colorata, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 7,5 x 15 cm dans un pot transparent avec LED cuivrées et flamme stable en forme de balle, 1 pièce par boîte, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico de 7,5 x 15 cm em copo transparente com luzes de LED cor de cobre e chama estável em formato de bala, 1 unidade por caixa colorida, funciona com 2 pilhas AA."
     },
     "price": 5.88,
     "category": "candle",
@@ -213,7 +233,9 @@ export const products: Product[] = [
       "de": "7,5 x 10 cm große LED-Kerze aus Kunststoff in einem transparenten Becher mit kupferfarbenen LEDs und gelber Flammenimitation, 1 Stück pro Farbbox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 7,5 x 10 cm en vaso transparente + luces LED de cobre con imitación de llama amarilla, 1 unidad/caja de color, funciona con 2 pilas AA.",
       "ru": "Пластиковая светодиодная свеча 7,5*10 см в прозрачном стаканчике + медные светодиоды с имитацией желтого пламени, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 7,5*10 cm in tazza trasparente + luci LED in rame con fiamma gialla imitazione, 1 pz/scatola colorata, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 7,5*10 cm in tazza trasparente + luci LED in rame con fiamma gialla imitazione, 1 pz/scatola colorata, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 7,5 x 10 cm dans un pot transparent avec LED cuivrées et imitation flamme jaune, 1 pièce par boîte, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico de 7,5 x 10 cm em copo transparente com luzes de LED cor de cobre e imitação de chama amarela, 1 unidade por caixa colorida, funciona com 2 pilhas AA."
     },
     "price": 4.919999999999999,
     "category": "candle",
@@ -233,7 +255,9 @@ export const products: Product[] = [
       "de": "7,5 x 12,5 cm große LED-Kerze aus Kunststoff in einem transparenten Becher mit kupferfarbenen LEDs und gelber Flammenimitation, 1 Stück pro Farbbox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 7,5 x 12,5 cm en vaso transparente + luces LED de cobre con imitación de llama amarilla, 1 unidad/caja de color, funciona con 2 pilas AA.",
       "ru": "Пластиковая светодиодная свеча 7,5*12,5 см в прозрачном стаканчике + медные светодиоды с имитацией желтого пламени, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 7,5*12,5 cm in tazza trasparente + luci LED in rame con fiamma gialla imitazione, 1 pz/scatola colorata, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 7,5*12,5 cm in tazza trasparente + luci LED in rame con fiamma gialla imitazione, 1 pz/scatola colorata, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique 7,5 x 12,5 cm dans un pot transparent avec LED cuivrées et imitation flamme jaune, 1 pièce par boîte, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico de 7,5 x 12,5 cm em copo transparente com luzes de LED cor de cobre e imitação de chama amarela, 1 unidade por caixa colorida, funciona com 2 pilhas AA."
     },
     "price": 5.159999999999999,
     "category": "candle",
@@ -253,7 +277,9 @@ export const products: Product[] = [
       "de": "7,5 x 15 cm große LED-Kerze aus Kunststoff in einem transparenten Becher mit kupferfarbenen LEDs und gelber Flammenimitation, 1 Stück pro Farbbox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 7,5 x 15 cm en vaso transparente + luces LED de cobre con imitación de llama amarilla, 1 unidad/caja de color, funciona con 2 pilas AA",
       "ru": "Пластиковая светодиодная свеча 7,5*15 см в прозрачном стаканчике + медные светодиоды с имитацией желтого пламени, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 7,5*15 cm in tazza trasparente + luci LED in rame con fiamma gialla imitazione, 1 pz/scatola colorata, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 7,5*15 cm in tazza trasparente + luci LED in rame con fiamma gialla imitazione, 1 pz/scatola colorata, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 7,5 x 15 cm dans un pot transparent avec LED cuivrées et imitation flamme jaune, 1 pièce par boîte, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico de 7,5 x 15 cm em copo transparente com luzes de LED cor de cobre e imitação de chama amarela, 1 unidade por caixa colorida, funciona com 2 pilhas AA."
     },
     "price": 5.3999999999999995,
     "category": "candle",
@@ -273,7 +299,9 @@ export const products: Product[] = [
       "de": "5,5 x 11 cm große LED-Kerze aus Kunststoff mit silbernem Glitzerspray, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 5,5 x 11 cm con spray de purpurina plateada, 12 unidades en caja de presentación, funciona con 2 pilas AA.",
       "ru": "Пластиковые светодиодные свечи 5,5*11 см с серебристыми блестками, 12 шт./витрина, работают от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,5*11 cm con spray glitter argento, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,5*11 cm con spray glitter argento, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 5,5 x 11 cm avec paillettes argentées, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico 5,5 x 11 cm com spray de glitter prateado, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 3.5999999999999996,
     "category": "candle",
@@ -293,7 +321,9 @@ export const products: Product[] = [
       "de": "5,5 x 13 cm große LED-Kerze aus Kunststoff mit silbernem Glitzerspray, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 5,5 x 13 cm con spray de purpurina plateada, 12 unidades en caja de presentación, funciona con 2 pilas AA.",
       "ru": "Пластиковые светодиодные свечи 5,5*13 см с серебристыми блестками, 12 шт./витрина, работают от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,5*13 cm con spray glitter argento, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,5*13 cm con spray glitter argento, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 5,5 x 13 cm avec paillettes argentées, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico 5,5 x 13 cm com spray de glitter prateado, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 3.84,
     "category": "candle",
@@ -313,7 +343,9 @@ export const products: Product[] = [
       "de": "5,5 x 16 cm große LED-Kerze aus Kunststoff mit silbernem Glitzerspray, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 5,5 x 16 cm con spray de purpurina plateada, 12 unidades en caja de presentación, funciona con 2 pilas AA.",
       "ru": "Пластиковые светодиодные свечи 5,5*16 см с серебристыми блестками, 12 шт./витрина, работают от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,5*16 cm con spray glitter argento, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,5*16 cm con spray glitter argento, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 5,5 x 16 cm avec paillettes argentées, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico 5,5 x 16 cm com spray de glitter prateado, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 4.08,
     "category": "candle",
@@ -333,7 +365,9 @@ export const products: Product[] = [
       "de": "5,5 x 11 cm große LED-Kerze aus Kunststoff mit Goldglitzerspray, 1 Stück/Farbbox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 5,5 x 11 cm con spray de purpurina dorada, 1 unidad/caja de color, funciona con 2 pilas AA.",
       "ru": "Пластиковая светодиодная свеча 5,5*11 см с золотыми блестками, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,5*11 cm con spray glitterato dorato, 1 pz/scatola colorata, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,5*11 cm con spray glitterato dorato, 1 pz/scatola colorata, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 5,5 x 11 cm avec paillettes dorées, 1 pièce par boîte, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico 5,5 x 11 cm com spray de glitter dourado, 1 unidade por caixa colorida, funciona com 2 pilhas AA."
     },
     "price": 4.8,
     "category": "candle",
@@ -353,7 +387,9 @@ export const products: Product[] = [
       "de": "5,5 x 13 cm große LED-Kerze aus Kunststoff mit Goldglitzerspray, 1 Stück/Farbbox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 5,5 x 13 cm con spray de purpurina dorada, 1 unidad/caja de color, funciona con 2 pilas AA.",
       "ru": "Пластиковая светодиодная свеча 5,5*13 см с золотыми блестками, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,5*13 cm con spray glitterato dorato, 1 pz/scatola colorata, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,5*13 cm con spray glitterato dorato, 1 pz/scatola colorata, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 5,5 x 13 cm avec paillettes dorées, 1 pièce par boîte, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico 5,5 x 13 cm com spray de glitter dourado, 1 unidade por caixa colorida, funciona com 2 pilhas AA."
     },
     "price": 5.04,
     "category": "candle",
@@ -373,7 +409,9 @@ export const products: Product[] = [
       "de": "5,5 x 16 cm große LED-Kerze aus Kunststoff mit Goldglitzerspray, 1 Stück/Farbbox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 5,5 x 16 cm con spray de purpurina dorada, 1 unidad/caja de color, funciona con 2 pilas AA.",
       "ru": "Пластиковая светодиодная свеча 5,5*16 см с золотыми блестками, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,5*16 cm con spray glitterato dorato, 1 pz/scatola colorata, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,5*16 cm con spray glitterato dorato, 1 pz/scatola colorata, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 5,5 x 16 cm avec paillettes dorées, 1 pièce par boîte, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico 5,5 x 16 cm com spray de glitter dourado, 1 unidade por caixa colorida, funciona com 2 pilhas AA."
     },
     "price": 5.28,
     "category": "candle",
@@ -393,7 +431,9 @@ export const products: Product[] = [
       "de": "5,5 x 12,5 cm große LED-Kerze aus Kunststoff im hellgrauen Becher, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 5,5 x 12,5 cm en color gris claro, 12 unidades en caja de presentación, funciona con 2 pilas AA.",
       "ru": "Светодиодные пластиковые свечи 5,5*12,5 см в светло-сером корпусе, 12 шт./витрина, работают от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,5*12,5 cm in tazza di colore grigio chiaro, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,5*12,5 cm in tazza di colore grigio chiaro, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 5,5 x 12,5 cm dans un récipient gris clair, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico 5,5 x 12,5 cm em copo cinza claro, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 2.64,
     "category": "candle",
@@ -413,7 +453,9 @@ export const products: Product[] = [
       "de": "5,5 x 15 cm große LED-Kerze aus Kunststoff im hellgrauen Becher, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 5,5 x 15 cm en color gris claro, 12 unidades en caja de presentación, funciona con 2 pilas AA.",
       "ru": "Светодиодные пластиковые свечи 5,5*15 см в светло-сером корпусе, 12 шт./витрина, работают от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,5*15 cm in tazza di colore grigio chiaro, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,5*15 cm in tazza di colore grigio chiaro, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 5,5 x 15 cm dans un récipient gris clair, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico 5,5 x 15 cm em copo cinza claro, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 2.88,
     "category": "candle",
@@ -433,7 +475,9 @@ export const products: Product[] = [
       "de": "13,5 cm große LED-Kerze mit dreifacher Flamme aus Kunststoff, Gold/Silber/Weiß, 1 Stück/Farbbox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de triple llama de 13,5 cm, dorada, plateada y blanca, 1 unidad en caja de color, funciona con 2 pilas AA.",
       "ru": "Светодиодная пластиковая свеча с тройным пламенем, 13,5 см, золотистый/серебристый/белый цвет, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica a tripla fiamma da 13,5 cm, oro/argento/bianco, 1 pezzo/scatola colorata, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica a tripla fiamma da 13,5 cm, oro/argento/bianco, 1 pezzo/scatola colorata, funzionante con 2 batterie AA",
+      "fr": "Bougie LED triple flamme en plastique de 13,5 cm, or/argent/blanc, 1 pièce/boîte couleur, fonctionne avec 2 piles AA",
+      "pt": "Vela LED de plástico com chama tripla de 13,5 cm, dourada/prateada/branca, 1 unidade por caixa colorida, funciona com 2 pilhas AA."
     },
     "price": 3.48,
     "category": "candle",
@@ -453,7 +497,9 @@ export const products: Product[] = [
       "de": "16 cm LED-Kerze mit dreifacher Flamme aus Kunststoff und Becher, Gold/Silber/Weiß, 1 Stück/Farbbox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de triple llama de 16 cm con taza, dorada, plateada y blanca, 1 unidad en caja de color, funciona con 2 pilas AA.",
       "ru": "Светодиодная пластиковая свеча с тремя пламенами, 16 см, с подставкой, золотистый/серебристый/белый цвет, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica a tripla fiamma da 16 cm con tazza, oro/argento/bianco, 1 pezzo/scatola colorata, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica a tripla fiamma da 16 cm con tazza, oro/argento/bianco, 1 pezzo/scatola colorata, funzionante con 2 batterie AA",
+      "fr": "Bougie LED triple flamme en plastique de 16 cm avec coupelle, or/argent/blanc, 1 pièce/boîte couleur, fonctionne avec 2 piles AA",
+      "pt": "Vela de LED de plástico com chama tripla de 16 cm e suporte, nas cores dourada, prateada e branca, 1 unidade por caixa colorida, funciona com 2 pilhas AA."
     },
     "price": 4.44,
     "category": "candle",
@@ -473,7 +519,9 @@ export const products: Product[] = [
       "de": "18,5 cm hohe LED-Kerze mit dreifacher Flamme und Becher, Gold/Silber/Weiß, 1 Stück/Farbbox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de triple llama de 18,5 cm con taza, dorada, plateada y blanca, 1 unidad en caja de color, funciona con 2 pilas AA.",
       "ru": "Светодиодная пластиковая свеча с тремя пламенами, 18,5 см, с подставкой, золотистый/серебристый/белый цвет, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica a tripla fiamma da 18,5 cm con tazza, oro/argento/bianco, 1 pezzo/scatola colorata, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica a tripla fiamma da 18,5 cm con tazza, oro/argento/bianco, 1 pezzo/scatola colorata, funzionante con 2 batterie AA",
+      "fr": "Bougie LED triple flamme en plastique de 18,5 cm avec coupelle, or/argent/blanc, 1 pièce/boîte couleur, fonctionne avec 2 piles AA",
+      "pt": "Vela de LED de plástico com chama tripla de 18,5 cm e suporte, nas cores dourada, prateada e branca, 1 unidade por caixa colorida, funciona com 2 pilhas AA."
     },
     "price": 4.68,
     "category": "candle",
@@ -493,7 +541,9 @@ export const products: Product[] = [
       "de": "21,5 cm LED-Kerze mit dreifacher Flamme aus Kunststoff und Becher, Gold/Silber/Weiß, 1 Stück/Farbbox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de triple llama de 21,5 cm con taza, dorada, plateada y blanca, 1 unidad en caja de color, funciona con 2 pilas AA.",
       "ru": "Светодиодная пластиковая свеча с тремя пламенами, 21,5 см, с подставкой, золотистый/серебристый/белый цвет, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica a tripla fiamma da 21,5 cm con tazza, oro/argento/bianco, 1 pezzo/scatola colorata, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica a tripla fiamma da 21,5 cm con tazza, oro/argento/bianco, 1 pezzo/scatola colorata, funzionante con 2 batterie AA",
+      "fr": "Bougie LED triple flamme en plastique de 21,5 cm avec coupelle, or/argent/blanc, 1 pièce/boîte couleur, fonctionne avec 2 piles AA",
+      "pt": "Vela de LED de plástico com chama tripla de 21,5 cm e suporte, nas cores dourada, prateada e branca, 1 unidade por caixa colorida, funciona com 2 pilhas AA."
     },
     "price": 5.04,
     "category": "candle",
@@ -513,7 +563,9 @@ export const products: Product[] = [
       "de": "18 cm LED-Kerze mit dreifacher Flamme aus Kunststoff, 1 Stück/Farbbox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de triple llama de 18 cm, 1 unidad/caja de color, funciona con 2 pilas AA",
       "ru": "Светодиодная пластиковая свеча с тройным пламенем, 18 см, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica a tripla fiamma da 18 cm, 1 pezzo/scatola colorata, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica a tripla fiamma da 18 cm, 1 pezzo/scatola colorata, funzionante con 2 batterie AA",
+      "fr": "Bougie LED triple flamme en plastique de 18 cm, 1 pièce/boîte couleur, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico com chama tripla de 18 cm, 1 unidade por caixa colorida, funciona com 2 pilhas AA."
     },
     "price": 5.159999999999999,
     "category": "candle",
@@ -533,7 +585,9 @@ export const products: Product[] = [
       "de": "5,5 x 12,5 cm große LED-Grabkerze aus Kunststoff mit goldener Kreuzverzierung, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela de tumba de plástico LED de 5,5 x 12,5 cm con decoración de cruz dorada, 12 piezas/caja de presentación, funciona con 2 pilas AA",
       "ru": "Светодиодные пластиковые свечи для могилы размером 5,5*12,5 см с золотым крестом, 12 шт./витрина, работают от 2 батареек типа АА.",
-      "it": "Candela funebre in plastica a LED da 5,5*12,5 cm con decorazione a croce dorata, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela funebre in plastica a LED da 5,5*12,5 cm con decorazione a croce dorata, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie funéraire LED en plastique de 5,5 x 12,5 cm avec décoration en croix dorée, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico para túmulo, 5,5 x 12,5 cm, com decoração de cruz dourada, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 3.12,
     "category": "candle",
@@ -553,7 +607,9 @@ export const products: Product[] = [
       "de": "5,5 x 15 cm große LED-Grabkerze aus Kunststoff mit goldener Kreuzverzierung, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela de tumba de plástico LED de 5,5 x 15 cm con decoración de cruz dorada, 12 piezas/caja de presentación, funciona con 2 pilas AA",
       "ru": "Светодиодные пластиковые свечи для могилы размером 5,5*15 см с золотым крестом, 12 штук в коробке, работают от 2 батареек типа АА.",
-      "it": "Candela funebre in plastica a LED da 5,5*15 cm con decorazione a croce dorata, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela funebre in plastica a LED da 5,5*15 cm con decorazione a croce dorata, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie funéraire LED en plastique de 5,5 x 15 cm avec décoration en croix dorée, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico para túmulo, 5,5 x 15 cm, com decoração de cruz dourada, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 3.36,
     "category": "candle",
@@ -573,7 +629,9 @@ export const products: Product[] = [
       "de": "LED-Kerzen in Eiszapfenform aus Acryl, gelbes Licht, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de carámbano acrílico, luz en amarillo, 12 piezas / caja de presentación, funciona con 2 pilas AA",
       "ru": "Акриловые светодиодные свечи в виде сосулек, светящиеся желтым светом, 12 шт./витрина, работают от 2 батареек типа АА.",
-      "it": "Candela LED a forma di ghiacciolo in acrilico, luce gialla, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED a forma di ghiacciolo in acrilico, luce gialla, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en acrylique en forme de glaçon, lumière jaune, 12 pièces/boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED em formato de pingente de gelo acrílico, luz amarela, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 3.1799999999999997,
     "category": "candle",
@@ -593,7 +651,9 @@ export const products: Product[] = [
       "de": "LED-Eiszapfenkerze aus Acryl, rotes Licht, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de carámbano acrílico, luz en rojo, 12 piezas/caja de presentación, funciona con 2 pilas AA",
       "ru": "Акриловые светодиодные свечи в виде сосулек, светящиеся красным, 12 шт./витрина, работают от 2 батареек типа АА.",
-      "it": "Candela LED a forma di ghiacciolo in acrilico, luce rossa, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED a forma di ghiacciolo in acrilico, luce rossa, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en acrylique en forme de glaçon, lumière rouge, 12 pièces/boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED em formato de pingente de gelo acrílico, luz vermelha, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 3.1799999999999997,
     "category": "candle",
@@ -613,7 +673,9 @@ export const products: Product[] = [
       "de": "LED-Kerzen in Eiszapfenform aus Acryl, violettes Licht, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de carámbano acrílico, luz violeta, 12 piezas/caja de presentación, funciona con 2 pilas AA",
       "ru": "Акриловые светодиодные свечи в виде сосулек, фиолетового цвета, 12 шт./витрина, работают от 2 батареек типа АА.",
-      "it": "Candela LED a forma di ghiacciolo in acrilico, luce viola, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED a forma di ghiacciolo in acrilico, luce viola, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en acrylique en forme de glaçon, lumière violette, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED em formato de pingente de gelo de acrílico, luz roxa, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 3.1799999999999997,
     "category": "candle",
@@ -633,7 +695,9 @@ export const products: Product[] = [
       "de": "LED-Kerzen in Eiszapfenform aus Acryl, kaltweißes Licht, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de carámbano acrílico, luz en blanco frío, 12 piezas/caja de presentación, funciona con 2 pilas AA",
       "ru": "Акриловые светодиодные свечи в виде сосулек, свет холодного белого света, 12 шт./витрина, работают от 2 батареек типа АА.",
-      "it": "Candela LED a forma di ghiacciolo in acrilico, luce bianca fredda, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED a forma di ghiacciolo in acrilico, luce bianca fredda, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en acrylique en forme de glaçon, lumière blanche froide, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED em formato de pingente de gelo acrílico, luz branca fria, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 3.1799999999999997,
     "category": "candle",
@@ -653,7 +717,9 @@ export const products: Product[] = [
       "de": "LED-Kerzen in Eiszapfenform aus Acryl, warmweißes Licht, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de carámbano acrílico, luz en blanco cálido, 12 piezas/caja de presentación, funciona con 2 pilas AA",
       "ru": "Акриловые светодиодные свечи в виде сосулек, светящиеся теплым белым светом, 12 шт./витрина, работают от 2 батареек типа АА.",
-      "it": "Candela LED a forma di ghiacciolo in acrilico, luce bianca calda, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED a forma di ghiacciolo in acrilico, luce bianca calda, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en acrylique en forme de glaçon, lumière blanc chaud, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED em formato de pingente de gelo acrílico, luz branca quente, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 3.1799999999999997,
     "category": "candle",
@@ -673,7 +739,9 @@ export const products: Product[] = [
       "de": "5,3 x 12,5 cm, LED-Kerze aus Kunststoff mit kugelförmiger Flamme, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico con forma de bala, 5,3 x 12,5 cm, 12 unidades por caja, funciona con 2 pilas AA.",
       "ru": "Светодиодная пластиковая свеча с пламенем в форме пули, 5,3*12,5 см, 12 шт./витрина, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,3*12,5 cm con fiamma a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,3*12,5 cm con fiamma a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique, 5,3 x 12,5 cm, flamme en forme de balle, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico, 5,3 x 12,5 cm, com chama em formato de bala, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 3.0599999999999996,
     "category": "candle",
@@ -693,7 +761,9 @@ export const products: Product[] = [
       "de": "5,3 x 15 cm große LED-Kerze aus Kunststoff mit kugelförmiger Flamme, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico con forma de bala, 5,3 x 15 cm, 12 unidades por caja, funciona con 2 pilas AA.",
       "ru": "Светодиодная пластиковая свеча с пламенем в форме пули, 5,3*15 см, 12 штук в коробке, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,3*15 cm con fiamma a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,3*15 cm con fiamma a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 5,3 x 15 cm avec flamme en forme de balle, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico, 5,3 x 15 cm, com chama em formato de bala, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 3.36,
     "category": "candle",
@@ -713,7 +783,9 @@ export const products: Product[] = [
       "de": "5,3 x 12,5 cm große LED-Kerze aus Kunststoff mit kugelförmiger Flamme und goldener Kreuzverzierung, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 5,3 x 12,5 cm con forma de bala y decoración de cruz dorada, 12 unidades por caja, funciona con 2 pilas AA.",
       "ru": "Светодиодная пластиковая свеча размером 5,3*12,5 см с пламенем в форме пули и золотым крестом, 12 штук в коробке, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,3*12,5 cm con fiamma a forma di proiettile e decorazione a croce dorata, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,3*12,5 cm con fiamma a forma di proiettile e decorazione a croce dorata, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 5,3 x 12,5 cm, avec flamme en forme de balle et décoration en forme de croix dorée, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico, 5,3 x 12,5 cm, com chama em formato de bala e decoração de cruz dourada, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 3.54,
     "category": "candle",
@@ -733,7 +805,9 @@ export const products: Product[] = [
       "de": "5,3 x 15 cm große LED-Kerze aus Kunststoff mit kugelförmiger Flamme und goldener Kreuzverzierung, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 5,3 x 15 cm con forma de bala y decoración de cruz dorada, 12 unidades por caja, funciona con 2 pilas AA.",
       "ru": "Светодиодная пластиковая свеча размером 5,3*15 см с пламенем в форме пули и золотым крестом, 12 штук в коробке, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,3*15 cm con fiamma a forma di proiettile e decorazione a croce dorata, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,3*15 cm con fiamma a forma di proiettile e decorazione a croce dorata, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique de 5,3 x 15 cm, avec flamme en forme de balle et décoration en forme de croix dorée, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico, 5,3 x 15 cm, com chama em formato de bala e decoração de cruz dourada, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 3.78,
     "category": "candle",
@@ -753,7 +827,9 @@ export const products: Product[] = [
       "de": "5,3 x 12,5 cm große LED-Kerze aus Kunststoff, metallbeschichtet in Gold/Silber/Gun Black, mit kugelförmiger Flamme, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico chapada en oro metálico, plata y negro pistola, de 5,3 x 12,5 cm, con forma de bala, 12 unidades por caja, funciona con 2 pilas AA.",
       "ru": "Светодиодная пластиковая свеча размером 5,3*12,5 см, покрытая металлическим золотом/серебром/черным цветом, с пламенем в форме пули, 12 штук в демонстрационной коробке, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,3*12,5 cm, placcata in oro/argento/nero metallizzato, con fiamma a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,3*12,5 cm, placcata in oro/argento/nero metallizzato, con fiamma a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique plaqué or/argent/noir canon de fusil, 5,3 x 12,5 cm, flamme en forme de balle, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico, 5,3 x 12,5 cm, banhada a metal dourado/prateado/preto, com chama em formato de bala, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 3.78,
     "category": "candle",
@@ -773,7 +849,9 @@ export const products: Product[] = [
       "de": "5,3 x 15 cm große LED-Kerze aus Kunststoff, metallbeschichtet in Gold/Silber/Gun Black, mit kugelförmiger Flamme, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 5,3 x 15 cm, chapada en oro metálico, plata y negro pistola, con llama en forma de bala, 12 unidades por caja de presentación, funciona con 2 pilas AA.",
       "ru": "Светодиодная пластиковая свеча размером 5,3*15 см, покрытая металлическим золотом/серебром/черным цветом, с пламенем в форме пули, 12 штук в демонстрационной коробке, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,3*15 cm placcata in oro/argento/nero metallizzato, con fiamma a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,3*15 cm placcata in oro/argento/nero metallizzato, con fiamma a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique plaqué or/argent/noir métallisé, 5,3 x 15 cm, flamme en forme de balle, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico, 5,3 x 15 cm, com revestimento metálico em dourado/prateado/preto, com chama em formato de bala, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 4.08,
     "category": "candle",
@@ -793,7 +871,9 @@ export const products: Product[] = [
       "de": "5,3 x 17,5 cm große LED-Kerze aus Kunststoff, metallbeschichtet in Gold/Silber/Gun Black, mit kugelförmiger Flamme, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico chapada en oro metálico, plata y negro pistola, de 5,3 x 17,5 cm, con forma de bala, 12 unidades por caja, funciona con 2 pilas AA.",
       "ru": "Светодиодная пластиковая свеча размером 5,3*17,5 см, покрытая металлическим золотом/серебром/черным цветом, с пламенем в форме пули, 12 штук в демонстрационной коробке, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,3*17,5 cm placcata in oro/argento/nero metallizzato, con fiamma a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,3*17,5 cm placcata in oro/argento/nero metallizzato, con fiamma a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique plaqué or/argent/noir canon de fusil, 5,3 x 17,5 cm, flamme en forme de balle, 12 pièces par boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico, 5,3 x 17,5 cm, banhada a metal dourado/prateado/preto, com chama em formato de bala, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 4.38,
     "category": "candle",
@@ -813,7 +893,9 @@ export const products: Product[] = [
       "de": "5,3 x 12,5 cm große LED-Kerze aus Kunststoff, metallbeschichtet in Gold/Silber/Gun-Schwarz mit Kreuzdekor, flammenförmiges Design, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico chapada en oro metálico, plata y negro pistola, de 5,3 x 12,5 cm, con decoración en forma de cruz y forma de bala, 12 unidades en caja de presentación. Funciona con 2 pilas AA.",
       "ru": "Светодиодная пластиковая свеча размером 5,3*12,5 см, покрытая металлическим золотом/серебром/черным металликом с крестообразным декором, пламя в форме пули, 12 штук в демонстрационной коробке, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica da 5,3*12,5 cm, placcata in oro/argento/nero metallizzato con decorazione a croce, fiamma a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica da 5,3*12,5 cm, placcata in oro/argento/nero metallizzato con decorazione a croce, fiamma a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique plaqué or/argent/noir canon de fusil, 5,3 x 12,5 cm, avec décoration en forme de croix et flamme en forme de balle. Vendue par boîte de 12. Fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico, 5,3 x 12,5 cm, banhada a metal dourado/prateado/preto-chumbo com decoração em cruz, chama em formato de bala, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 4.2,
     "category": "candle",
@@ -833,7 +915,9 @@ export const products: Product[] = [
       "de": "5,3 x 15 cm große LED-Kerze aus Kunststoff, metallbeschichtet in Gold/Silber/Gun-Schwarz mit Kreuzdekor, flammenförmiges Design, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico de 5,3 x 15 cm, chapada en oro metálico, plata y negro pistola con decoración en forma de cruz, llama en forma de bala, 12 unidades por caja de presentación, funciona con 2 pilas AA.",
       "ru": "Светодиодная пластиковая свеча размером 5,3*15 см, покрытая металлическим золотом/серебром/черным металликом с крестообразным декором, пламя в форме пули, 12 штук в коробке, работает от 2 батареек типа АА.",
-      "it": "5,3*15 cm, candela a LED in plastica placcata in oro/argento/nero metallizzato con decorazione a croce, fiamma a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA"
+      "it": "5,3*15 cm, candela a LED in plastica placcata in oro/argento/nero metallizzato con decorazione a croce, fiamma a forma di proiettile, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique plaqué or/argent/noir canon de fusil, 5,3 x 15 cm, avec décoration en forme de croix et flamme en forme de balle. Vendue par boîte de 12. Fonctionne avec 2 piles AA.",
+      "pt": "Vela de LED de plástico, 5,3 x 15 cm, banhada a metal dourado/prateado/preto-chumbo com decoração em cruz, chama em formato de bala, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 4.56,
     "category": "candle",
@@ -853,7 +937,9 @@ export const products: Product[] = [
       "de": "7,5 x 10 cm große Solar-LED-Kerze, wasserdicht, 1 Stück/Farbbox",
       "es": "Vela LED solar de 7,5 x 10 cm, resistente al agua, 1 unidad/caja de color",
       "ru": "Солнечная светодиодная свеча 7,5*10 см, водонепроницаемая, 1 шт./цветная коробка",
-      "it": "Candela solare a LED da 7,5*10 cm, impermeabile, 1 pezzo/scatola colorata"
+      "it": "Candela solare a LED da 7,5*10 cm, impermeabile, 1 pezzo/scatola colorata",
+      "fr": "Bougie solaire LED 7,5 x 10 cm, étanche, 1 pièce/boîte couleur",
+      "pt": "Vela solar LED de 7,5 x 10 cm, à prova d'água, 1 unidade por caixa colorida."
     },
     "price": 9,
     "category": "candle",
@@ -873,7 +959,9 @@ export const products: Product[] = [
       "de": "7,5 x 12,5 cm Solar-LED-Kerze, wasserdicht, 1 Stück/Farbbox",
       "es": "Vela LED solar de 7,5 x 12,5 cm, resistente al agua, 1 unidad/caja de color",
       "ru": "Солнечная светодиодная свеча 7,5*12,5 см, водонепроницаемая, 1 шт./цветная коробка",
-      "it": "Candela solare a LED da 7,5*12,5 cm, impermeabile, 1 pezzo/scatola colorata"
+      "it": "Candela solare a LED da 7,5*12,5 cm, impermeabile, 1 pezzo/scatola colorata",
+      "fr": "Bougie solaire LED 7,5 x 12,5 cm, étanche, 1 pièce/boîte couleur",
+      "pt": "Vela solar LED de 7,5 x 12,5 cm, à prova d'água, 1 unidade por caixa colorida."
     },
     "price": 9.6,
     "category": "candle",
@@ -893,7 +981,9 @@ export const products: Product[] = [
       "de": "7,5 x 15 cm große Solar-LED-Kerze, wasserdicht, 1 Stück/Farbbox",
       "es": "Vela LED solar de 7,5 x 15 cm, resistente al agua, 1 unidad/caja de color",
       "ru": "Солнечная светодиодная свеча 7,5*15 см, водонепроницаемая, 1 шт./цветная коробка",
-      "it": "Candela solare a LED da 7,5*15 cm, impermeabile, 1 pezzo/scatola colorata"
+      "it": "Candela solare a LED da 7,5*15 cm, impermeabile, 1 pezzo/scatola colorata",
+      "fr": "Bougie solaire LED 7,5 x 15 cm, étanche, 1 pièce/boîte couleur",
+      "pt": "Vela solar LED de 7,5 x 15 cm, à prova d'água, 1 unidade por caixa colorida."
     },
     "price": 10.2,
     "category": "candle",
@@ -913,7 +1003,9 @@ export const products: Product[] = [
       "de": "9,5 x 6,5 cm LED-Öllampe, gold-/silber-/anthrazitfarben beschichtet, 1 Stück/Farbbox, Betrieb mit 2 AA-Batterien",
       "es": "Lámpara de aceite LED de 9,5 x 6,5 cm, chapada en oro, plata y negro, 1 unidad/caja de color, funciona con 2 pilas AA.",
       "ru": "Светодиодная масляная лампа 9,5*6,5 см, покрытие золотом/серебром/черном, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Lampada a olio a LED da 9,5*6,5 cm, placcata in oro/argento/nero, 1 pezzo/scatola colorata, funzionante con 2 batterie AA"
+      "it": "Lampada a olio a LED da 9,5*6,5 cm, placcata in oro/argento/nero, 1 pezzo/scatola colorata, funzionante con 2 batterie AA",
+      "fr": "Lampe à huile LED 9,5 x 6,5 cm, plaquée or/argent/noir canon de fusil, 1 pièce/boîte couleur, fonctionne avec 2 piles AA",
+      "pt": "Lâmpada de óleo LED de 9,5 x 6,5 cm, banhada a ouro/prata/preto-chumbo, 1 unidade por caixa colorida, funciona com 2 pilhas AA."
     },
     "price": 6,
     "category": "candle",
@@ -933,7 +1025,9 @@ export const products: Product[] = [
       "de": "7,5 x 12,5 cm LED-Kerze mit Marmorsockel, 1 Stück/Farbbox",
       "es": "Vela LED de 7,5 x 12,5 cm con base de mármol, 1 unidad/caja de color",
       "ru": "Светодиодная свеча 7,5*12,5 см с мраморным основанием, 1 шт./цветная коробка",
-      "it": "Candela a LED da 7,5*12,5 cm con base in marmo, 1 scatola colorata"
+      "it": "Candela a LED da 7,5*12,5 cm con base in marmo, 1 scatola colorata",
+      "fr": "Bougie LED 7,5 x 12,5 cm avec base en marbre, 1 pièce/boîte couleur",
+      "pt": "Vela LED de 7,5 x 12,5 cm com base de mármore, 1 unidade por caixa colorida."
     },
     "price": 6.6,
     "category": "candle",
@@ -953,7 +1047,9 @@ export const products: Product[] = [
       "de": "7,5 x 15 cm LED-Kerze mit Marmorsockel, 1 Stück/Farbbox",
       "es": "Vela LED de 7,5 x 15 cm con base de mármol, 1 unidad/caja de color",
       "ru": "Светодиодная свеча 7,5*15 см с мраморным основанием, 1 шт./цветная коробка",
-      "it": "Candela a LED da 7,5*15 cm con base in marmo, 1 scatola colorata"
+      "it": "Candela a LED da 7,5*15 cm con base in marmo, 1 scatola colorata",
+      "fr": "Bougie LED 7,5 x 15 cm avec base en marbre, 1 pièce/boîte couleur",
+      "pt": "Vela LED de 7,5 x 15 cm com base de mármore, 1 unidade por caixa colorida."
     },
     "price": 7.199999999999999,
     "category": "candle",
@@ -973,7 +1069,9 @@ export const products: Product[] = [
       "de": "Sechseckige LED-Kerze aus Kunststoff, 6,5 x 12 cm, 12 Stück pro Displaybox, Betrieb mit 2 AA-Batterien\r\n\r\n",
       "es": "Vela LED hexagonal de plástico de 6,5 x 12 cm, 12 unidades en caja de presentación, funciona con 2 pilas AA.",
       "ru": "Пластиковые светодиодные свечи шестиугольной формы, 6,5*12 см, 12 шт./коробка для демонстрации, работают от 2 батареек типа АА.\r\n\r\n",
-      "it": "Candela LED esagonale in plastica da 6,5 ​​x 12 cm, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA\r\n"
+      "it": "Candela LED esagonale in plastica da 6,5 ​​x 12 cm, 12 pezzi/scatola espositiva, funzionante con 2 batterie AA\r\n",
+      "fr": "Bougie LED hexagonale en plastique 6,5 x 12 cm, 12 pièces/boîte présentoir, fonctionne avec 2 piles AA.",
+      "pt": "Vela LED hexagonal de plástico de 6,5 x 12 cm, 12 unidades por caixa expositora, funciona com 2 pilhas AA."
     },
     "price": 2.04,
     "category": "candle",
@@ -993,7 +1091,9 @@ export const products: Product[] = [
       "de": "17 x 6,5 x 4,5 cm, LED-Kerze – Flamme in Form eines Feuers",
       "es": "Vela LED de 17 x 6,5 x 4,5 cm con forma de llama de fuego.",
       "ru": "Светодиодная свеча размером 17*6,5*4,5 см – пламя в форме огня.",
-      "it": "17*6,5*4,5 cm, candela LED – fiamma a forma di fuoco"
+      "it": "17*6,5*4,5 cm, candela LED – fiamma a forma di fuoco",
+      "fr": "",
+      "pt": ""
     },
     "price": 5.76,
     "category": "candle",
@@ -1013,7 +1113,9 @@ export const products: Product[] = [
       "de": "17 x 5 x 4,5 cm, LED-Kerze – Flamme in Form eines Feuers",
       "es": "Vela LED de 17 x 5 x 4,5 cm con forma de llama de fuego.",
       "ru": "Светодиодная свеча 17*5*4,5 см – пламя в форме огня.",
-      "it": "Candela LED 17*5*4,5 cm – Fiamma a forma di fuoco"
+      "it": "Candela LED 17*5*4,5 cm – Fiamma a forma di fuoco",
+      "fr": "Bougie LED 17 x 6,5 x 4,5 cm – Flamme en forme de feu",
+      "pt": "Vela LED de 17*6,5*4,5cm – Chama em formato de fogo"
     },
     "price": 5.76,
     "category": "candle",
@@ -1033,7 +1135,9 @@ export const products: Product[] = [
       "de": "17 x 6,5 x 4,5 cm, LED-Kerze mit Solarpanel – Flamme in Form eines Feuers",
       "es": "Vela LED con panel solar (17 x 6,5 x 4,5 cm) con forma de llama de fuego.",
       "ru": "Светодиодная свеча с солнечной панелью, 17*6,5*4,5 см – пламя в форме огня.",
-      "it": "Candela LED con pannello solare, 17*6,5*4,5 cm – Fiamma a forma di fuoco"
+      "it": "Candela LED con pannello solare, 17*6,5*4,5 cm – Fiamma a forma di fuoco",
+      "fr": "Bougie LED 17 x 5 x 4,5 cm – Flamme en forme de feu",
+      "pt": "Vela LED de 17*5*4,5cm – Chama em formato de fogo"
     },
     "price": 7.56,
     "category": "candle",
@@ -1053,7 +1157,9 @@ export const products: Product[] = [
       "de": "7,5 x 10 cm große, vergoldete LED-Kerze aus Kunststoff, 1 Stück pro Farbbox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico chapada en oro de 7,5 x 10 cm, 1 unidad/caja de color, funciona con 2 pilas AA",
       "ru": "Светодиодная свеча из позолоченного пластика, 7,5*10 см, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica placcata oro da 7,5*10 cm, 1 pz/scatola colorata, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica placcata oro da 7,5*10 cm, 1 pz/scatola colorata, funzionante con 2 batterie AA",
+      "fr": "Bougie LED 17 x 6,5 x 4,5 cm avec panneau solaire – Flamme en forme de feu",
+      "pt": "Vela LED com painel solar, 17 x 6,5 x 4,5 cm – Chama em formato de fogo"
     },
     "price": 6.6,
     "category": "candle",
@@ -1073,7 +1179,9 @@ export const products: Product[] = [
       "de": "7,5 x 12,5 cm große, vergoldete LED-Kerze aus Kunststoff, 1 Stück pro Farbbox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico chapada en oro de 7,5 x 12,5 cm, 1 unidad/caja de color, funciona con 2 pilas AA",
       "ru": "Светодиодная свеча из позолоченного пластика, 7,5*12,5 см, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica placcata oro da 7,5*12,5 cm, 1 pezzo/scatola colorata, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica placcata oro da 7,5*12,5 cm, 1 pezzo/scatola colorata, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique plaqué or 7,5 x 10 cm, 1 pièce/boîte couleur, fonctionne avec 2 piles AA",
+      "pt": "Vela LED de plástico banhada a ouro, 7,5 x 10 cm, 1 unidade por caixa colorida, funciona com 2 pilhas AA."
     },
     "price": 7.199999999999999,
     "category": "candle",
@@ -1093,7 +1201,9 @@ export const products: Product[] = [
       "de": "7,5 x 15 cm große, vergoldete LED-Kerze aus Kunststoff, 1 Stück pro Farbbox, Betrieb mit 2 AA-Batterien",
       "es": "Vela LED de plástico chapada en oro de 7,5 x 15 cm, 1 unidad/caja de color, funciona con 2 pilas AA",
       "ru": "Светодиодная свеча из позолоченного пластика, 7,5*15 см, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Candela LED in plastica placcata oro da 7,5*15 cm, 1 pz/scatola colorata, funzionante con 2 batterie AA"
+      "it": "Candela LED in plastica placcata oro da 7,5*15 cm, 1 pz/scatola colorata, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique plaqué or 7,5 x 12,5 cm, 1 pièce/boîte couleur, fonctionne avec 2 piles AA",
+      "pt": "Vela LED de plástico banhada a ouro, 7,5 x 12,5 cm, 1 unidade por caixa colorida, funciona com 2 pilhas AA."
     },
     "price": 7.8,
     "category": "candle",
@@ -1113,7 +1223,9 @@ export const products: Product[] = [
       "de": "15 x 6 cm große LED-Flammenleuchte aus Kunststoff, 1 Stück/Farbbox, Betrieb mit 2 AA-Batterien",
       "es": "Luz de llama LED de plástico de 15 x 6 cm, 1 unidad/caja de color, funciona con 2 pilas AA",
       "ru": "Пластиковый светодиодный светильник в виде пламени, 15*6 см, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Luce a fiamma a LED in plastica da 15*6 cm, 1 scatola colorata, funzionante con 2 batterie AA"
+      "it": "Luce a fiamma a LED in plastica da 15*6 cm, 1 scatola colorata, funzionante con 2 batterie AA",
+      "fr": "Bougie LED en plastique plaqué or 7,5 x 15 cm, 1 pièce/boîte couleur, fonctionne avec 2 piles AA",
+      "pt": "Vela LED de plástico banhada a ouro, 7,5 x 15 cm, 1 unidade por caixa colorida, funciona com 2 pilhas AA."
     },
     "price": 5.76,
     "category": "candle",
@@ -1133,7 +1245,9 @@ export const products: Product[] = [
       "de": "8,5 x 26 cm Glitzer-Wasserkerze, warmweißes LED-Licht, mit verschiedenen Innenszenen, Betrieb über USB und 3 AAA-Batterien",
       "es": "VELA DE AGUA CON BRILLO DE 8,5*26 cm, LUZ LED BLANCA CÁLIDA, CON DIFERENTES ESCENAS INTERIORES, FUNCIONA POR USB Y 3 PILAS AAA",
       "ru": "Свеча с блестками, водяная, 8,5*26 см, теплый белый светодиодный свет, внутри разные декорации, работает от USB и 3 батареек AAA.",
-      "it": "CANDELA CON GLITTER DA 8,5*26 cm, LUCE LED BIANCA CALDA, CON SCENA INTERNA DIVERSA ALL'INTERNO, FUNZIONANTE TRAMITE USB E 3 BATTERIE AAA"
+      "it": "CANDELA CON GLITTER DA 8,5*26 cm, LUCE LED BIANCA CALDA, CON SCENA INTERNA DIVERSA ALL'INTERNO, FUNZIONANTE TRAMITE USB E 3 BATTERIE AAA",
+      "fr": "",
+      "pt": ""
     },
     "price": 25.2,
     "category": "water-lamp",
@@ -1153,7 +1267,9 @@ export const products: Product[] = [
       "de": "8,5 x 26 cm Glitzer-Wasserkerze, mehrfarbiges LED-Licht, Betrieb über USB und 3 x AAA-Batterien",
       "es": "VELA DE AGUA CON BRILLO DE 8,5 x 26 cm, LUZ LED MULTICOLOR, FUNCIONA POR USB Y 3 PILAS AAA",
       "ru": "Водяная свеча с блестками, 8,5*26 см, многоцветная светодиодная подсветка, работает от USB и 3 батареек AAA.",
-      "it": "CANDELA CON GLITTER DA 8,5*26 cm, LUCE LED MULTICOLORE, FUNZIONANTE TRAMITE USB E 3 BATTERIE AAA"
+      "it": "CANDELA CON GLITTER DA 8,5*26 cm, LUCE LED MULTICOLORE, FUNZIONANTE TRAMITE USB E 3 BATTERIE AAA",
+      "fr": "Bougie à eau pailletée 8,5 x 26 cm, lumière LED blanche chaude, avec différents décors intérieurs, fonctionne sur USB et avec 3 piles AAA.",
+      "pt": "Vela de água com glitter de 8,5 x 26 cm, luz LED branca quente, com diferentes cenários internos, funciona com USB e 3 pilhas AA."
     },
     "price": 19.2,
     "category": "water-lamp",
@@ -1173,7 +1289,9 @@ export const products: Product[] = [
       "de": "16,8 x 9,5 x 40,5 cm große LED-Weihnachtslaterne mit Krippenmotiv und Musik, Betrieb über USB und AA-Batterien",
       "es": "LINTERNA LED DE NAVIDAD CON MÚSICA DE 16,8 x 9,5 x 40,5 CM, funciona con USB y pilas AA",
       "ru": "Светильник-фонарь в виде рождественской сцены для церкви, размером 16,8*9,5*40,5 см, со встроенной музыкой, работает от USB и батареек типа АА.",
-      "it": "Lanterna a LED per chiesa di Natale con scena della natività da 16,8*9,5*40,5 cm con musica, funzionante tramite USB e batteria AA"
+      "it": "Lanterna a LED per chiesa di Natale con scena della natività da 16,8*9,5*40,5 cm con musica, funzionante tramite USB e batteria AA",
+      "fr": "Bougie à eau pailletée 8,5 x 26 cm, lumière LED multicolore, fonctionne sur USB et avec 3 piles AAA",
+      "pt": "Vela de água com glitter de 8,5 x 26 cm, luz LED multicolorida, funciona com USB e 3 pilhas AA."
     },
     "price": 122.39999999999999,
     "category": "water-lamp",
@@ -1193,7 +1311,9 @@ export const products: Product[] = [
       "de": "27 x 16,5 x 15 cm große LED-Weihnachtslaterne in Form einer Kristallkirche mit Musik, Betrieb über USB und AA-Batterien",
       "es": "LINTERNA LED DE ADORNO NAVIDEÑO DE CRISTAL DE 27*16,5*15 CM CON MÚSICA, funciona con USB y pilas AA",
       "ru": "Хрустальный рождественский фонарь для церкви, 27*16,5*15 см, со светодиодной подсветкой и музыкой, работает от USB и батареек типа АА.",
-      "it": "Lanterna a LED con decorazione natalizia in cristallo da chiesa, 27*16,5*15 cm, con musica, funzionante tramite USB e batteria AA"
+      "it": "Lanterna a LED con decorazione natalizia in cristallo da chiesa, 27*16,5*15 cm, con musica, funzionante tramite USB e batteria AA",
+      "fr": "Lanterne LED de Noël avec musique, représentant une crèche (16,8 x 9,5 x 40,5 cm), fonctionnant sur USB et piles AA.",
+      "pt": "Lanterna de Natal com LED e música, representando uma cena do presépio, medindo 16,8 x 9,5 x 40,5 cm, funciona com USB e pilhas AA."
     },
     "price": 78,
     "category": "water-lamp",
@@ -1213,7 +1333,9 @@ export const products: Product[] = [
       "de": "Weihnachtsmusik-Schneekugellaterne (10,5 x 10,5 x 20 cm) mit unterschiedlicher Innendekoration, Betrieb über USB und AA-Batterie",
       "es": "LINTERNA DE BOLA DE NIEVE NAVIDEÑA CON MÚSICA DE 10,5*10,5*20 CON DIFERENTE DECORACIÓN INTERIOR, funciona con USB y batería AA",
       "ru": "Рождественский музыкальный снежный шар-фонарь размером 10,5*10,5*20 см с различными внутренними украшениями, работает от USB и батареек типа АА.",
-      "it": "LANTERNA GLOBO DI NEVE CON MUSICA NATALIZIA 10,5*10,5*20 CON DIVERSE DECORAZIONI INTERNE, funzionante tramite USB e batteria AA"
+      "it": "LANTERNA GLOBO DI NEVE CON MUSICA NATALIZIA 10,5*10,5*20 CON DIVERSE DECORAZIONI INTERNE, funzionante tramite USB e batteria AA",
+      "fr": "Lanterne de Noël LED en forme d'église en cristal (27 x 16,5 x 15 cm) avec musique, fonctionne sur USB et piles AA.",
+      "pt": "Enfeite de Natal de cristal para igreja, lanterna LED com música, 27*16,5*15 cm, funciona com USB e pilha AA."
     },
     "price": 44.4,
     "category": "water-lamp",
@@ -1233,7 +1355,9 @@ export const products: Product[] = [
       "de": "Weihnachtsmusik-Kirchenlaterne (13,5 x 8 x 28 cm) mit unterschiedlicher Innendekoration, Betrieb über USB und AA-Batterie",
       "es": "LINTERNA DE IGLESIA CON MÚSICA NAVIDEÑA DE 13,5*8*28 cm CON DIFERENTE DECORACIÓN INTERIOR, funciona con USB y batería AA",
       "ru": "Рождественский музыкальный церковный фонарь размером 13,5*8*28 см с различным внутренним декором, работает от USB и батареек типа АА.",
-      "it": "Lanterna da chiesa natalizia con musica natalizia da 13,5*8*28 cm con diverse decorazioni interne, funzionante tramite USB e batteria AA"
+      "it": "Lanterna da chiesa natalizia con musica natalizia da 13,5*8*28 cm con diverse decorazioni interne, funzionante tramite USB e batteria AA",
+      "fr": "Lanterne boule à neige musicale de Noël 10,5 x 10,5 x 20 cm avec différentes décorations intérieures, fonctionne sur USB et piles AA.",
+      "pt": "Globo de neve musical de Natal 10,5*10,5*20 com decoração interna variada, funciona com USB e pilha AA."
     },
     "price": 81.6,
     "category": "water-lamp",
@@ -1253,7 +1377,9 @@ export const products: Product[] = [
       "de": "Weihnachts-Musikschloss-Dekoration, 24,5 x 10 x 34 cm, Betrieb über USB und AA-Batterie",
       "es": "DECORACIÓN DE CASTILLO MUSICAL NAVIDEÑO DE 24,5 x 10 x 34 cm, funciona con USB y pilas AA",
       "ru": "Музыкальное рождественское украшение в виде замка, 24,5*10*34 см, работает от USB и батареек типа АА.",
-      "it": "DECORAZIONE CASTELLO MUSICALE NATALIZIO 24,5*10*34cm, funzionante tramite USB e batteria AA"
+      "it": "DECORAZIONE CASTELLO MUSICALE NATALIZIO 24,5*10*34cm, funzionante tramite USB e batteria AA",
+      "fr": "Lanterne musicale de Noël (13,5 x 8 x 28 cm) avec différentes décorations intérieures, fonctionne avec un câble USB et des piles AA.",
+      "pt": "Lanterna de Natal Musical para Igreja, 13,5 x 8 x 28 cm, com decoração interna variada, funciona com USB e pilha AA."
     },
     "price": 162,
     "category": "water-lamp",
@@ -1273,7 +1399,9 @@ export const products: Product[] = [
       "de": "26 x 11 x 22 cm große, musikalische rote Königskutsche mit Glitzer und Wasser, Betrieb über USB und AA-Batterie",
       "es": "26*11*22cm CARRUAJE REAL ROJO MUSICAL CON BRILLO Y AGUA, funciona con USB y pila AA",
       "ru": "Музыкальная красная королевская карета размером 26*11*22 см с блестками и водой, работает от USB и батареек типа АА.",
-      "it": "CARROZZA REALE MUSICALE ROSSA 26*11*22cm CON GLITTER E ACQUA, funzionante tramite USB e batteria AA"
+      "it": "CARROZZA REALE MUSICALE ROSSA 26*11*22cm CON GLITTER E ACQUA, funzionante tramite USB e batteria AA",
+      "fr": "Château musical décoratif de Noël (24,5 x 10 x 34 cm), fonctionne avec un câble USB et des piles AA.",
+      "pt": "Castelo musical de Natal decorativo, 24,5 x 10 x 34 cm, funciona com USB e pilha AA."
     },
     "price": 138,
     "category": "water-lamp",
@@ -1293,7 +1421,9 @@ export const products: Product[] = [
       "de": "26 x 11 x 22 cm große, musikalische grüne Königskutsche mit Glitzer und Wasser, Betrieb über USB und AA-Batterie",
       "es": "CARRUAJE REAL MUSICAL VERDE DE 26*11*22 cm CON BRILLO Y AGUA, funciona con USB y pila AA",
       "ru": "Музыкальная зеленая королевская карета размером 26*11*22 см с блестками и водой, работает от USB и батареек типа АА.",
-      "it": "CARROZZA REALE MUSICALE VERDE 26*11*22cm CON GLITTER E ACQUA, funzionante tramite USB e batteria AA"
+      "it": "CARROZZA REALE MUSICALE VERDE 26*11*22cm CON GLITTER E ACQUA, funzionante tramite USB e batteria AA",
+      "fr": "Carrosse royal rouge musical de 26 x 11 x 22 cm avec paillettes et eau, fonctionnant sur USB et piles AA.",
+      "pt": "Carruagem Real Vermelha Musical de 26*11*22cm com Glitter e Água, funciona com USB e pilha AA"
     },
     "price": 138,
     "category": "water-lamp",
@@ -1313,7 +1443,9 @@ export const products: Product[] = [
       "de": "26 x 11 x 22 cm große, musikalische, weiße Königskutsche mit Glitzer und Wasser, Betrieb über USB und AA-Batterie",
       "es": "CARRUAJE REAL BLANCO MUSICAL CON BRILLO Y AGUA, 26*11*22cm, funciona con USB y pila AA",
       "ru": "Музыкальная белая королевская карета размером 26*11*22 см с блестками и водой, работает от USB и батареек типа АА.",
-      "it": "CARROZZA REALE MUSICALE BIANCA 26*11*22cm CON GLITTER E ACQUA, funzionante tramite USB e batteria AA"
+      "it": "CARROZZA REALE MUSICALE BIANCA 26*11*22cm CON GLITTER E ACQUA, funzionante tramite USB e batteria AA",
+      "fr": "Carrosse royal musical vert de 26 x 11 x 22 cm avec paillettes et eau, fonctionnant sur USB et piles AA.",
+      "pt": "Carruagem Real Musical Verde de 26*11*22cm com Glitter e Água, funciona com USB e pilha AA"
     },
     "price": 138,
     "category": "water-lamp",
@@ -1333,7 +1465,9 @@ export const products: Product[] = [
       "de": "Musikalische Wasserglitzerkerze (15 x 9,5 x 30 cm) mit verschiedenen inneren Szenen, Betrieb über USB und AA-Batterie",
       "es": "VELA MUSICAL CON BRILLO DE AGUA DE 15*9,5*30 cm, DECORACIÓN CON DIFERENTES ESCENAS INTERIORES, funciona con USB y pilas AA",
       "ru": "Музыкальная водяная свеча с блестками, размером 15*9,5*30 см, с различными внутренними сценами, работает от USB и батареек типа АА.",
-      "it": "DECORAZIONE CANDELA MUSICALE CON ACQUA GLITTER 15*9,5*30cm CON DIVERSE SCENE INTERNE, funzionante tramite USB e batteria AA"
+      "it": "DECORAZIONE CANDELA MUSICALE CON ACQUA GLITTER 15*9,5*30cm CON DIVERSE SCENE INTERNE, funzionante tramite USB e batteria AA",
+      "fr": "Carrosse royal blanc musical de 26 x 11 x 22 cm avec paillettes et eau, fonctionnant sur USB et piles AA.",
+      "pt": "Carruagem Real Branca Musical de 26*11*22cm com Glitter e Água, funciona com USB e pilha AA"
     },
     "price": 70.8,
     "category": "water-lamp",
@@ -1353,7 +1487,9 @@ export const products: Product[] = [
       "de": "21 x 21 x 31,5 cm große LED-Weihnachtskrippe mit Musik, Betrieb über USB und AA-Batterien",
       "es": "21*21*31,5 CM BELÉN DECORACIÓN NAVIDEÑA LED CON MÚSICA, funciona con USB y pila AA",
       "ru": "Рождественская светодиодная декорация в виде рождественского вертепа размером 21*21*31,5 см с музыкой, работающая от USB и батареек типа АА.",
-      "it": "DECORAZIONE NATALIZIO A LED CON PRESEPE 21*21*31,5 CM CON MUSICA, funzionante tramite USB e batteria AA"
+      "it": "DECORAZIONE NATALIZIO A LED CON PRESEPE 21*21*31,5 CM CON MUSICA, funzionante tramite USB e batteria AA",
+      "fr": "Bougie musicale à paillettes et à eau (15 x 9,5 x 30 cm) avec différents décors intérieurs, fonctionne sur USB et piles AA.",
+      "pt": "Vela decorativa musical com glitter, medindo 15 x 9,5 x 30 cm, com diferentes cenários internos. Funciona com USB e pilha AA."
     },
     "price": 114,
     "category": "water-lamp",
@@ -1373,7 +1509,9 @@ export const products: Product[] = [
       "de": "21 x 21 x 31,5 cm große, musikalische Laterne in Form eines fliegenden Hirsches, Betrieb über USB und AA-Batterie",
       "es": "LINTERNA MUSICAL DECORADA CON CIERVO VOLADOR DE 21*21*31,5 CM, funciona con USB y pilas AA",
       "ru": "Музыкальный фонарь в виде летающего оленя, 21*21*31,5 см, работает от USB и батареек типа АА.",
-      "it": "Decorazione lanterna musicale a forma di cervo volante da 21*21*31,5 cm, funzionante tramite USB e batteria AA"
+      "it": "Decorazione lanterna musicale a forma di cervo volante da 21*21*31,5 cm, funzionante tramite USB e batteria AA",
+      "fr": "Décoration de Noël LED représentant une crèche (21 x 21 x 31,5 cm) avec musique, fonctionnant sur USB et piles AA.",
+      "pt": "Presépio de Natal com iluminação LED e música, medindo 21 x 21 x 31,5 cm, funciona com USB e pilhas AA."
     },
     "price": 114,
     "category": "water-lamp",
@@ -1393,7 +1531,9 @@ export const products: Product[] = [
       "de": "10,5 x 7 x 21 cm große LED-Weihnachtsbeleuchtung mit Musik und verschiedenen Innenszenen, Betrieb über USB und AA-Batterien",
       "es": "DECORACIÓN DE LUZ LED NAVIDEÑA DE 10,5*7*21 CM CON MÚSICA Y DIFERENTES ESCENAS INTERIORES, funciona con USB y batería AA",
       "ru": "Рождественская светодиодная декорация размером 10,5*7*21 см с музыкой и различными внутренними сценами, работающая от USB и батареек типа АА.",
-      "it": "DECORAZIONE LUMINOSA A LED NATALIZIO 10,5*7*21CM CON MUSICA E DIVERSE SCENE INTERNE, funzionante tramite USB e batteria AA"
+      "it": "DECORAZIONE LUMINOSA A LED NATALIZIO 10,5*7*21CM CON MUSICA E DIVERSE SCENE INTERNE, funzionante tramite USB e batteria AA",
+      "fr": "Lanterne musicale décorative Cerf volant (21 x 21 x 31,5 cm), fonctionne avec un câble USB et des piles AA.",
+      "pt": "Lanterna musical decorativa em formato de veado voador, medindo 21 x 21 x 31,5 cm, funciona com USB e pilha AA."
     },
     "price": 57.599999999999994,
     "category": "water-lamp",
@@ -1413,7 +1553,9 @@ export const products: Product[] = [
       "de": "11 x 9 x 21 cm große LED-Wasserleuchte mit drei Glitzerköpfen und Musik, Betrieb über USB und AA-Batterien",
       "es": "VELA LED DE AGUA CON BRILLO DE 3 CABEZAS DE 11*9*21 CM CON MÚSICA, funciona con USB y batería AA",
       "ru": "Светодиодная свеча с тремя плафонами, блестками, высотой 11*9*21 см, с музыкой, работает от USB и батареек типа АА.",
-      "it": "Candela LED ad acqua glitterata a 3 teste da 11*9*21 cm con musica, funzionante tramite USB e batteria AA"
+      "it": "Candela LED ad acqua glitterata a 3 teste da 11*9*21 cm con musica, funzionante tramite USB e batteria AA",
+      "fr": "Décoration lumineuse LED de Noël 10,5 x 7 x 21 cm avec musique et différents effets lumineux, fonctionne sur USB et piles AA.",
+      "pt": "Decoração de Natal com luzes LED, 10,5 x 7 x 21 cm, com música e diferentes cenários internos. Funciona com USB e pilhas AA."
     },
     "price": 58.8,
     "category": "water-lamp",
@@ -1433,7 +1575,9 @@ export const products: Product[] = [
       "de": "22 x 14 x 14 cm große LED-Wasserlaterne mit Glitzer, verschiedenen Innenszenen, Betrieb über USB und AA-Batterien",
       "es": "LINTERNA DE AGUA LED BRILLANTE DE 22*14*14 CM, CON DIFERENTES ESCENAS INTERIORES, funciona con USB y batería AA",
       "ru": "Светодиодный водный фонарь с блестками, размером 22*14*14 см, с различными внутренними эффектами, работает от USB и батареек типа АА.",
-      "it": "LANTERNA ACQUATICA A LED GLITTER 22*14*14CM, CON SCENA INTERNA DIVERSA, funzionante tramite USB e batteria AA"
+      "it": "LANTERNA ACQUATICA A LED GLITTER 22*14*14CM, CON SCENA INTERNA DIVERSA, funzionante tramite USB e batteria AA",
+      "fr": "Bougie LED à eau pailletée à 3 têtes (11 x 9 x 21 cm) avec musique, fonctionne sur USB et piles AA.",
+      "pt": "Vela de LED com glitter e água, 3 cabeças, 11*9*21cm, com música, funciona com USB e pilha AA."
     },
     "price": 62.4,
     "category": "water-lamp",
@@ -1453,7 +1597,9 @@ export const products: Product[] = [
       "de": "27 x 10,5 x 10,5 cm große LED-Wasserlaterne mit Glitzer, verschiedenen Innenszenen, Betrieb über USB und AA-Batterien",
       "es": "LINTERNA DE AGUA LED BRILLANTE DE 27*10,5*10,5 CM, CON DIFERENTES ESCENAS INTERIORES, funciona con USB y batería AA",
       "ru": "Светодиодный водный фонарь с блестками, размер 27*10,5*10,5 см, с различными внутренними эффектами, работает от USB и батареек типа АА.",
-      "it": "LANTERNA AD ACQUA CON LED GLITTER 27*10,5*10,5 CM, CON DIVERSE SCENE INTERNE, funzionante tramite USB e batteria AA"
+      "it": "LANTERNA AD ACQUA CON LED GLITTER 27*10,5*10,5 CM, CON DIVERSE SCENE INTERNE, funzionante tramite USB e batteria AA",
+      "fr": "Lanterne à eau LED pailletée de 22 x 14 x 14 cm, avec différents décors intérieurs, fonctionnant sur USB et piles AA.",
+      "pt": "Lanterna de água LED com glitter, 22*14*14cm, com diferentes cenários internos, funciona com USB e pilha AA."
     },
     "price": 51.6,
     "category": "water-lamp",
@@ -1473,7 +1619,9 @@ export const products: Product[] = [
       "de": "10,5 x 6 x 24 cm große LED-Wasserlaterne mit Glitzer, verschiedenen Innenszenen, Betrieb über USB und AA-Batterien",
       "es": "LINTERNA DE AGUA LED BRILLANTE DE 10,5*6*24 CM, CON DIFERENTES ESCENAS INTERIORES, funciona con USB y batería AA",
       "ru": "Светодиодный водный фонарь с блестками, размером 10,5*6*24 см, с различными внутренними эффектами, работает от USB и батареек типа АА.",
-      "it": "LANTERNA ACQUATICA A LED GLITTER 10,5*6*24CM, CON SCENA INTERNA DIVERSA, funzionante tramite USB e batteria AA"
+      "it": "LANTERNA ACQUATICA A LED GLITTER 10,5*6*24CM, CON SCENA INTERNA DIVERSA, funzionante tramite USB e batteria AA",
+      "fr": "Lanterne à eau LED pailletée de 27 x 10,5 x 10,5 cm, avec différents décors intérieurs, fonctionnant sur USB et piles AA.",
+      "pt": "Lanterna de água LED com glitter, 27*10,5*10,5 cm, com diferentes cenários internos, funciona com USB e pilha AA."
     },
     "price": 57.599999999999994,
     "category": "water-lamp",
@@ -1493,7 +1641,9 @@ export const products: Product[] = [
       "de": "8 x 8 x 23,5 cm große LED-Wasserlaterne mit Glitzer, verschiedenen Innenszenen, Betrieb über USB und AA-Batterien",
       "es": "LINTERNA DE AGUA LED BRILLANTE DE 8*8*23,5 CM, CON DIFERENTES ESCENAS INTERIORES, funciona con USB y batería AA",
       "ru": "Светодиодный водный фонарь с блестками, 8*8*23,5 см, с различными внутренними эффектами, работает от USB и батареек типа АА.",
-      "it": "LANTERNA AD ACQUA CON LED GLITTER 8*8*23,5 CM, CON DIVERSE SCENE INTERNE, funzionante tramite USB e batteria AA"
+      "it": "LANTERNA AD ACQUA CON LED GLITTER 8*8*23,5 CM, CON DIVERSE SCENE INTERNE, funzionante tramite USB e batteria AA",
+      "fr": "Lanterne à eau LED pailletée de 10,5 x 6 x 24 cm, avec différents décors intérieurs, fonctionnant sur USB et piles AA.",
+      "pt": "Lanterna de água LED com glitter, 10,5 x 6 x 24 cm, com diferentes cenários internos, funciona com USB e pilha AA."
     },
     "price": 36,
     "category": "water-lamp",
@@ -1513,7 +1663,9 @@ export const products: Product[] = [
       "de": "14,8 x 28 cm große LED-Wasserlaterne in Form eines Weihnachtsbaums mit Glitzer und verschiedenen Innenszenen, Betrieb über USB und AA-Batterien",
       "es": "LINTERNA LED CON BRILLO EN FORMA DE ÁRBOL DE NAVIDAD DE AGUA DE 14,8 X 28 CM CON ESCENA INTERIOR DIFERENTE, funciona con USB y batería AA",
       "ru": "Светящийся светодиодный фонарь в форме водяной елки, размером 14,8*28 см, с блестками и различными внутренними сценами, работает от USB и батареек типа АА.",
-      "it": "LANTERNA A FORMA DI ALBERO DI NATALE CON LED GLITTER DA 14,8*28 CM CON DIVERSE SCENE INTERNE, funzionante tramite USB e batteria AA"
+      "it": "LANTERNA A FORMA DI ALBERO DI NATALE CON LED GLITTER DA 14,8*28 CM CON DIVERSE SCENE INTERNE, funzionante tramite USB e batteria AA",
+      "fr": "Lanterne à eau LED pailletée 8 x 8 x 23,5 cm, avec différents décors intérieurs, fonctionnant sur USB et piles AA.",
+      "pt": "Lanterna de água LED com glitter, 8*8*23,5 cm, com diferentes cenários internos, funciona com USB e pilha AA."
     },
     "price": 62.4,
     "category": "water-lamp",
@@ -1533,7 +1685,9 @@ export const products: Product[] = [
       "de": "15 x 8 x 25,5 cm große LED-Wasserlaterne mit Glitzer und verschiedenen Innenszenen, Betrieb über USB und AA-Batterien",
       "es": "LINTERNA NAVIDEÑA DE AGUA LED BRILLANTE DE 15*8*25,5 CM CON DIFERENTES ESCENAS INTERIORES, funciona con USB y batería AA",
       "ru": "Рождественский фонарь с блестками, светодиодной подсветкой, размером 15*8*25,5 см, с различными внутренними сценами, работает от USB и батареек типа АА.",
-      "it": "LANTERNA DI NATALE A LED CON GLITTER ACQUA 15*8*25,5 CM CON DIVERSE SCENE INTERNE, funzionante tramite USB e batteria AA"
+      "it": "LANTERNA DI NATALE A LED CON GLITTER ACQUA 15*8*25,5 CM CON DIVERSE SCENE INTERNE, funzionante tramite USB e batteria AA",
+      "fr": "Lanterne de Noël à LED pailletées en forme de sapin (14,8 x 28 cm) avec différents décors intérieurs, fonctionnant sur USB et piles AA.",
+      "pt": "Lanterna de Natal em formato de árvore de Natal com LED brilhante, 14,8 x 28 cm, com diferentes cenários internos, funciona com USB e pilha AA."
     },
     "price": 50.4,
     "category": "water-lamp",
@@ -1553,7 +1707,9 @@ export const products: Product[] = [
       "de": "15 x 8 x 27,5 cm große LED-Wasserlaterne mit Glitzer und verschiedenen Innenszenen, Betrieb über USB und AA-Batterien",
       "es": "LINTERNA NAVIDEÑA DE AGUA LED BRILLANTE DE 15*8*27,5 CM CON DIFERENTES ESCENAS INTERIORES, funciona con USB y batería AA",
       "ru": "Рождественский фонарь с блестками, светодиодной подсветкой, размером 15*8*27,5 см, с различными внутренними сценами, работает от USB и батареек типа АА.",
-      "it": "LANTERNA DI NATALE A LED CON GLITTER ACQUA 15*8*27,5 CM CON DIVERSE SCENE INTERNE, funzionante tramite USB e batteria AA"
+      "it": "LANTERNA DI NATALE A LED CON GLITTER ACQUA 15*8*27,5 CM CON DIVERSE SCENE INTERNE, funzionante tramite USB e batteria AA",
+      "fr": "Lanterne de Noël à eau LED pailletée de 15 x 8 x 25,5 cm avec différents décors intérieurs, fonctionne sur USB et piles AA.",
+      "pt": "Lanterna de Natal de LED com glitter, 15*8*25,5 cm, com diferentes cenários internos, funciona com USB e pilha AA."
     },
     "price": 57.599999999999994,
     "category": "water-lamp",
@@ -1573,7 +1729,9 @@ export const products: Product[] = [
       "de": "Musikalische Weihnachts-Glitzer-Wasserlampe mit Engelsfigur (14,8 x 8,5 x 32 cm), Betrieb über USB und AA-Batterien",
       "es": "LÁMPARA DE AGUA CON BRILLO NAVIDEÑO MUSICAL DE 14,8 x 8,5 x 32 cm, COLECCIÓN DE FIGURAS DE ÁNGEL, funciona con USB y pilas AA",
       "ru": "Музыкальная рождественская блестящая водяная лампа в виде ангела, 14,8*8,5*32 см, из коллекции, работает от USB и батареек типа АА.",
-      "it": "Lampada ad acqua natalizia musicale con brillantini, 14,8*8,5*32 cm, collezione di figure di angeli, funzionante tramite USB e batteria AA"
+      "it": "Lampada ad acqua natalizia musicale con brillantini, 14,8*8,5*32 cm, collezione di figure di angeli, funzionante tramite USB e batteria AA",
+      "fr": "Lanterne de Noël à eau LED pailletée de 15 x 8 x 27,5 cm avec différents décors intérieurs, fonctionne sur USB et piles AA.",
+      "pt": "Lanterna de Natal LED com glitter, 15*8*27,5 cm, com diferentes cenários internos, funciona com USB e pilha AA."
     },
     "price": 100.8,
     "category": "water-lamp",

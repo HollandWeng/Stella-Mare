@@ -14,9 +14,9 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           {/* Brand Column */}
-          <div className="md:col-span-1">
+          <div className="md:col-span-2">
             <h3 className="text-lg font-semibold mb-4">{t.company}</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
               {tContact.companyName}<br />
@@ -24,17 +24,6 @@ export default function Footer() {
                 <span key={i}>{line}<br/></span>
               ))}
             </p>
-          </div>
-
-          {/* Contact Column */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">{t.contact}</h3>
-            <div className="text-gray-400 text-sm space-y-1">
-              <p className="font-medium text-white">CATHY PAN</p>
-              <p>Mob: 0086-18248538625</p>
-              <p>Tel: 0086-579-85189878</p>
-              <p>Email: stellamareglobal@gmail.com</p>
-            </div>
           </div>
 
           {/* Categories Column */}
@@ -57,6 +46,17 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
+          </div>
+
+          {/* Contact Column */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4">{t.contact}</h3>
+            <div className="text-gray-400 text-sm space-y-1">
+              <p className="font-medium text-white">CATHY PAN</p>
+              <p>Mob: 0086-18248538625</p>
+              <p>Tel: 0086-579-85189878</p>
+              <p>Email: stellamareglobal@gmail.com</p>
+            </div>
           </div>
         </div>
 

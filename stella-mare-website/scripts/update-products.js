@@ -50,6 +50,12 @@ rows.forEach((row, index) => {
   
   if (!model) return;
 
+  // Exclude SMC-057 due to patent issues
+  if (model.includes('SMC-057')) {
+    console.log('Skipping SMC-057 (Patent Issue)');
+    return;
+  }
+
   // Extract descriptions
   const descriptions = {
     en: row['英文描述'] || '',

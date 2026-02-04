@@ -1215,28 +1215,6 @@ export const products: Product[] = [
     }
   },
   {
-    "id": "SMC-057",
-    "name": "SMC-057",
-    "descriptions": {
-      "en": "15*6cm Plastic Led Flame Light, 1pc/color box, wokring by 2*AA Battery ",
-      "pl": "15*6 cm plastikowa lampa LED w kształcie płomienia, 1 szt./kolorowe pudełko, działa na 2 baterie AA",
-      "de": "15 x 6 cm große LED-Flammenleuchte aus Kunststoff, 1 Stück/Farbbox, Betrieb mit 2 AA-Batterien",
-      "es": "Luz de llama LED de plástico de 15 x 6 cm, 1 unidad/caja de color, funciona con 2 pilas AA",
-      "ru": "Пластиковый светодиодный светильник в виде пламени, 15*6 см, 1 шт./цветная коробка, работает от 2 батареек типа АА.",
-      "it": "Luce a fiamma a LED in plastica da 15*6 cm, 1 scatola colorata, funzionante con 2 batterie AA",
-      "fr": "Bougie LED en plastique plaqué or 7,5 x 15 cm, 1 pièce/boîte couleur, fonctionne avec 2 piles AA",
-      "pt": "Vela LED de plástico banhada a ouro, 7,5 x 15 cm, 1 unidade por caixa colorida, funciona com 2 pilhas AA."
-    },
-    "price": 5.76,
-    "category": "candle",
-    "image": "/images/products/SMC-057.png",
-    "originalRow": {
-      "packing": "墓碑大火焰灯\r\n1PC/灯",
-      "light": "橘灯",
-      "power": "AA电池"
-    }
-  },
-  {
     "id": "SMW-001",
     "name": "SMW-001",
     "descriptions": {
